@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio Climático</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 1rem;
+            width: 100%;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 2rem;
+        }
+
+        h2 {
+            color: #00796b;
+            margin-top: 1.5rem;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            margin-top: 1rem;
+            border-radius: 8px;
+        }
+
+        .button {
+            background-color: #00796b;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 1rem;
+        }
+
+        .button:hover {
+            background-color: #004d40;
+        }
+
+        .graph, .testimonials, .solutions {
+            background-color: #ffffff;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #004d40;
+            color: white;
+            padding: 1rem;
+            width: 100%;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .footer-links {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer-links:hover {
+            text-decoration: underline;
+        }
+
+        .subscription {
+            background-color: #00796b;
+            color: white;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        input[type="email"] {
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 4px;
+            width: 70%;
+        }
+
+        .subscribe-btn {
+            background-color: #004d40;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .subscribe-btn:hover {
+            background-color: #00251a;
+        }
+
+        .social-media {
+            margin-top: 1rem;
+        }
+
+        .social-media a {
+            margin: 0 10px;
+            color: #00796b;
+            text-decoration: none;
+        }
+
+        .social-media a:hover {
+            text-decoration: underline;
+        }
+        
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .gallery img {
+            width: calc(33% - 1rem);
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Climatico Web</h1>
+    </header>
+
+    <div class="container">
+        <p>El cambio climático es uno de los desafíos más importantes de nuestro tiempo. Está causado principalmente por las actividades humanas que liberan gases de efecto invernadero en la atmósfera, provocando un aumento en las temperaturas globales y alteraciones en los patrones climáticos.</p>
+        
+        <img src="Imagenes/cambio-climatico-dibujo.jpgkjhjkh" alt="Imagen sobre el cambio climático">
+
+        <h2>Causas del Cambio Climático</h2>
+        <p>Las principales causas incluyen la quema de combustibles fósiles, la deforestación y la agricultura intensiva. Estas actividades aumentan la concentración de dióxido de carbono y otros gases en la atmósfera.</p>
+        
+        <img src="Imagenes/causas.jpg" alt="Causas del cambio climático">
+
+        <div class="graph">
+            <h3>Emisiones de CO₂ en el Tiempo</h3>
+            <img src="Imagenes/Empisores.webp" alt="Gráfico de emisiones de CO2">
+            <p>Gráfico que muestra el aumento de las emisiones de CO₂ en las últimas décadas.</p>
+        </div>
+
+        <h2>Efectos del Cambio Climático</h2>
+        <p>Entre los efectos se encuentran el aumento del nivel del mar, fenómenos meteorológicos extremos, y pérdidas de biodiversidad. Estos cambios afectan tanto a la naturaleza como a las personas en todo el mundo.</p>
+
+        <img src="Imagenes/EFECTOS.jpg" alt="Efectos del cambio climático">
+        
+        <h2>¿Qué Puedes Hacer?</h2>
+        <ul>
+            <li>Reducir tu consumo de energía</li>
+            <li>Usar medios de transporte sostenibles</li>
+            <li>Reciclar y reducir los residuos</li>
+            <li>Apoyar iniciativas de protección ambiental</li>
+        </ul>
+
+        <button class="button" onclick="alert('Únete a la lucha contra el cambio climático')">Actúa Ahora</button>
+
+        <div class="testimonials">
+            <h3>Testimonios</h3>
+            <p><strong>Ana Aires.</strong>: “Con pequeños cambios en mi vida diaria, siento que puedo contribuir a un planeta más saludable.”</p>
+            <p><strong>Juan Zamora.</strong>: “Es urgente que tomemos acción. Todos podemos hacer algo para reducir nuestro impacto.”</p>
+        </div>
+
+        <div class="solutions">
+            <h2>Soluciones Innovadoras</h2>
+            <p>Las soluciones al cambio climático incluyen energías renovables, reforestación, y tecnología limpia. Aquí algunas iniciativas destacadas:</p>
+            <ul>
+                <li>Instalación de paneles solares</li>
+                <li>Proyectos de captura de carbono</li>
+                <li>Iniciativas de conservación del agua</li>
+                <li>Uso de vehículos eléctricos</li>
+            </ul>
+        </div>
+
+        <div class="gallery">
+            <h2>Galería de Imágenes</h2>
+            <img src="Imagenes/img.jpg" alt="Imagen 1">
+            <img src="Imagenes/arbol.jpg" alt="Imagen 2">
+            <img src="Imagenes/OSO.jpg" alt="Imagen 3">
+        </div>
+    </div>
+
+    <div class="subscription">
+        <h3>Suscríbete a Nuestras Noticias</h3>
+        <p>Recibe actualizaciones sobre el cambio climático y cómo puedes ayudar.</p>
+        <input type="email" placeholder="Tu correo electrónico">
+        <button class="subscribe-btn">Suscribirse</button>
+    </div>
+
+    <div class="social-media">
+        <h3>¡Síguenos en Redes Sociales!</h3>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Conciencia Climática | 
+            <a href="https://www.ejemplo.com/recursos" class="footer-links">Recursos</a> | 
+            <a href="https://www.ejemplo.com/sobre-nosotros" class="footer-links">Sobre Nosotros</a> | 
+            <a href="https://www.ejemplo.com/contacto" class="footer-links">Contacto</a>
+        </p>
+    </footer>
+
+</body>
+</html>
